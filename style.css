@@ -82,3 +82,9 @@ h1{
     display: block;
     width: fit-content;
 }
+
+.blocks-main-div{
+    display: flex;
+    flex-direction: column;
+    width : 70%;
+}
