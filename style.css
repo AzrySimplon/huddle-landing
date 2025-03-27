@@ -54,6 +54,15 @@
     footer>p {
         text-align: right;
     }
+    .block-right{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .block-left{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 body {
@@ -184,10 +193,15 @@ footer {
 
     margin-right: 2.5%;
     margin-left: 2.5%;
+    
+}
 
-    .blocks-main-div {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-    }
+.blocks-main-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.blocks-main-div>div>div>p{
+    color: var(--gray-blue);
 }
