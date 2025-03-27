@@ -27,6 +27,10 @@
     footer>p {
         text-align: center;
     }
+
+    .head-div {
+        background-image: url("images/bg-hero-mobile.svg");
+    }
 }
 
 @media (min-width: 1000px) {
@@ -34,6 +38,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        background-image: url("images/bg-hero-desktop.svg");
 
         >img {
             width: 50%;
@@ -126,7 +131,6 @@ a {
 .head-div {
     width: 100%;
     background-color: var(--very-pale-cyan);
-    background-image: url("images/bg-hero-mobile.svg");
 }
 
 .cyan-text {
