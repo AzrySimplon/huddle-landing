@@ -27,6 +27,10 @@
     footer>p {
         text-align: center;
     }
+
+    .head-div {
+        background-image: url("images/bg-hero-mobile.svg");
+    }
 }
 
 @media (min-width: 1000px) {
@@ -34,6 +38,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        background-image: url("images/bg-hero-desktop.svg");
 
         >img {
             width: 50%;
@@ -54,6 +59,8 @@
     footer>p {
         text-align: right;
     }
+
+
 }
 
 body {
@@ -85,13 +92,21 @@ a {
     width: 100%;
 }
 
+.blocks-main-div>div {
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    padding: 2.5%;
+}
+
 .white-button {
     font-weight: 600;
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     background-color: #ffff;
     color: var(--very-dark-cyan);
 }
@@ -102,7 +117,7 @@ a {
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     background-color: var(--pink);
     color: #ffff;
 
@@ -116,7 +131,6 @@ a {
 .head-div {
     width: 100%;
     background-color: var(--very-pale-cyan);
-    background-image: url("images/bg-hero-mobile.svg");
 }
 
 .cyan-text {
@@ -143,7 +157,7 @@ a {
     padding: 20px;
     background-color: #ffff;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     transform: translateY(50%);
 }
 
@@ -184,10 +198,11 @@ footer {
 
     margin-right: 2.5%;
     margin-left: 2.5%;
+}
 
-    .blocks-main-div {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-    }
+.blocks-main-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
 }
