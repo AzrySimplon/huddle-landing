@@ -60,7 +60,15 @@
         text-align: right;
     }
 
+    .block-right {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
+    .block-left {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 body {
@@ -205,4 +213,8 @@ footer {
     flex-direction: column;
     width: 90%;
     gap: 20px;
+}
+
+.blocks-main-div>div>div>p {
+    color: var(--gray-blue);
 }
