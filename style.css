@@ -63,11 +63,13 @@
     .block-right {
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
     }
 
     .block-left {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 }
 
